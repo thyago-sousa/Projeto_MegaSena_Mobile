@@ -1,22 +1,18 @@
-# 🎰 Simulador Mega-Sena - Android Studio
+# Simulador Mega-Sena
 
 **Aluno:** Thyago  
 **Linguagem:** Java
 
 ---
 
-## 📝 Descrição
+## Descrição
 Aplicativo Android que gera combinações aleatórias de 6 números para a Mega-Sena.
 
-## 🎨 Layout
+## Layout
 - **6 TextViews:** Iniciam com "--" e exibem os números sorteados.
 - **Botão Jogar:** Sorteia 6 números únicos e ordenados.
 - **Botão Limpar:** Reseta os campos para o estado inicial ("--").
 
-## ⚙️ Lógica
+## Lógica
 - **Intervalo:** Números de 01 a 60.
-- **Regra:** Sem repetições (uso de `TreeSet`).
 - **Formatação:** Exibição com dois dígitos (ex: 01, 09, 25).
-  
----
-*Projeto desenvolvido para fins acadêmicos.*
